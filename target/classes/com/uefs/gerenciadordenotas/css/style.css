@@ -1,0 +1,37 @@
+.root{
+	-fx-background-color: lightblue;
+}
+
+.label{
+	-fx-font-weight:bold;
+}
+
+.button{
+	-fx-font-weight:bold;
+	-fx-background-color: white;
+}
+
+/*Menu*/
+.menu-lateral{
+	-fx-background-color: blue;
+	-fx-border-color: #39ff14;
+}
+
+.menu-item{
+	-fx-background-color: black;
+	-fx-color: blue;
+}
+
+.menu-item:hover{
+	-fx-background-color: lightblue;
+	-fx-color: blue;
+	-fx-cursor: hand;
+}
+
+.menu-item:pressed {
+    -fx-background-color: rgb(99, 152, 237);
+}
+
+#labelMenu{
+	-fx-color: white;
+}
